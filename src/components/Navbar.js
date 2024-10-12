@@ -65,7 +65,7 @@ const Navbar = () => {
 
                 <MenuList icon={<MoneyCollectOutlined />} label={'Exchanges'} link={'/exchanges'} />
                 
-                <MenuList icon={<BulbOutlined />} label={'News'} link={'/news'} />
+                {/* <MenuList icon={<BulbOutlined />} label={'News'} link={'/news'} /> */}
             </Menu>
         ))
         }
